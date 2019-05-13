@@ -19,18 +19,12 @@ public class Pizza {
         this.skladniki=new ArrayList<>();
         this.nazwa = nazwa;
         this.cena = cena;
-        if(!skladnik1.equals(""))
-        skladniki.add(skladnik1);
     }
 
     public Pizza(String nazwa, int cena, String skladnik1, String skladnik2) {
         this.skladniki=new ArrayList<>();
         this.nazwa = nazwa;
         this.cena = cena;
-        if(!skladnik1.equals(""))
-        skladniki.add(skladnik1);
-        if(!skladnik2.equals(""))
-        skladniki.add(skladnik2);
     }
 
 

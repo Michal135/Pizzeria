@@ -12,10 +12,10 @@ public class AllPizzas {
 
     public AllPizzas(){
         this.allPizzas=new ArrayList<>();
-        allPizzas.add(new Pizza("pizza1",20));
-        allPizzas.add(new Pizza("pizza2",30,"Ser"));
-        allPizzas.add(new Pizza("pizza3",40,"Ser","Szynka"));
-        allPizzas.add(new Pizza("pizza4",40,"",""));
+        allPizzas.add(new Pizza("pizza1",20,"Sos Pomidorowy"));
+        allPizzas.add(new Pizza("pizza2",30,"Ser", "Sos Pomidorowy"));
+        allPizzas.add(new Pizza("pizza3",40,"Ser","Pieczarki"));
+        allPizzas.add(new Pizza("pizza4",40,"Ser","Szynka"));
     }
 
     public ArrayList<Pizza> getAllPizzas() {
