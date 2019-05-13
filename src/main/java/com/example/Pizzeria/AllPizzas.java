@@ -16,7 +16,6 @@ public class AllPizzas {
         allPizzas.add(new Pizza("pizza2",30,"Ser", "Sos Pomidorowy"));
         allPizzas.add(new Pizza("pizza3",40,"Ser","Pieczarki"));
         allPizzas.add(new Pizza("pizza4",40,"Ser","Szynka"));
-        allPizzas.add(new Pizza("pizza4",45,"Ser","Sos Czosnkowy"));
     }
 
     public ArrayList<Pizza> getAllPizzas() {
