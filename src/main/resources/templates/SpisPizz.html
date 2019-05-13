@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{css/style.css}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Tabela ze spisem pizz:</h1>
+</table>
+
+<table id="tabela">
+    <tr th:each="obiektpoj : ${wszystkie}" >
+        <td><span th:text="${obiektpoj.nazwa}" id="nazwa" > </span></td>
+        <td><span th:text="${obiektpoj.cena}"  id="cena"> </span></td>
+        <td><span th:text="${obiektpoj.skladniki}" id="skladniki" > </span></td>
+    </tr>
+</table>
+
+<h2>Dodawanie kolejnej pizzy:<a href="/dodajPizze">dodaj Pizze</a></h2>
+
+
+</body>
+</html>
+</body>
+</html>

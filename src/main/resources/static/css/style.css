@@ -1,0 +1,30 @@
+
+body
+{
+background-color:#F0FFF8;
+}
+#tabela
+{
+   border: 4px solid black;
+   border-collapse: collapse;
+}
+#tabela td {
+   border: 2px solid black;
+   background-color:#6BFBFF;
+}
+#cena
+{
+font-size:35px;
+color:black;
+background-color:#91AFFF;
+}
+#nazwa{
+font-size:35px;
+color:black;
+background-color:#91AFFF;
+}
+#skladniki{
+font-size:35px;
+color:black;
+background-color:#91AFFF;
+}
